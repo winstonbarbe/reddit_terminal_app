@@ -34,10 +34,3 @@ comment_hashes.each do |comment|
   comments << comment["data"]["body"]
 end
 p comments
-
-
-# selected_post = posts[post_index]
-
-# new_response = HTTP.get("https://www.reddit.com/r/#{sub_reddit}/comments/#{selected_post['id']}/#{selected_post['title']}/")
-
-# puts
